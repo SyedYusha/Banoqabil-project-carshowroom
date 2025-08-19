@@ -15,3 +15,5 @@ A subtle, metallic color used for thin borders, icons, and small text. It adds a
 
 Text Color: Pure White (#FFFFFF)
 This is the main color for all text that appears on dark backgrounds, ensuring high readability and a clean, sharp look.
+----------------------------------Some Links----------------------------------
+https://preview.themeforest.net/item/axemobile-car-detailing-service-car-repair-laravel-12-template/full_screen_preview/58728092
