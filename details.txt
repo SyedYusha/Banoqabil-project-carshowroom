@@ -1,0 +1,17 @@
+Name: LuxDrive Motors
+
+----------------------------------Theme Colors----------------------------------
+Primary Base: Dark Charcoal (#1A1A1A)
+This is the main background color for sections, the footer, and the navigation bar. It provides a sophisticated and high-end feel, making lighter colors and the cars themselves stand out.
+
+Secondary Base: Light Gray (#F5F5F5)
+This color is used for the background of cards, content blocks, and other areas where you need a clean, readable surface. It offers a strong contrast against the dark base.
+
+Primary Accent: Electric Blue (#007BFF)
+This is a vibrant color used for Call-to-Action (CTA) buttons, headings, and key highlights. It draws the user's eye to important information and gives the site a dynamic feel.
+
+Secondary Accent: Silver Chrome (#C0C0C0)
+A subtle, metallic color used for thin borders, icons, and small text. It adds a touch of sophistication and complements the cars' metallic finishes.
+
+Text Color: Pure White (#FFFFFF)
+This is the main color for all text that appears on dark backgrounds, ensuring high readability and a clean, sharp look.
