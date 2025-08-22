@@ -52,3 +52,11 @@ This section serves as a strong final message, reinforcing your brand's reliabil
 Heading: <h2>Our Promise to You</h2>
 
 Description: "We promise to treat your vehicle with the same care and attention as if it were our own. From a simple oil change to a complex repair, we stand by our work and guarantee your satisfaction. Your trust is our greatest asset."
+
+Unwavering Quality: To deliver flawless craftsmanship and use only the highest-grade materials to ensure every vehicle receives a service that is second to none.
+
+Total Transparency: To foster a relationship of trust by providing honest assessments and clear communication throughout every step of the process.
+
+Customer-Centric Service: To prioritize your satisfaction by making every interaction seamless, convenient, and tailored to your unique needs.
+
+Continuous Innovation: To remain at the forefront of automotive care by embracing new technologies and techniques that enhance our services and protect your investment.

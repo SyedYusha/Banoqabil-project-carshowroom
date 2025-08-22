@@ -222,7 +222,7 @@
         <div class="whcho_left">
           <h4 class="fou-heading col-1 mb-6">Why Choose LuxDrive Motors?</h4>
           <div class="whcho_left_det">
-              <span>90%</span>
+              <span id="counter">0%</span>
             <p>
               Many have felt the pleasure of our service and many have entrusted their vehicles to us
             </p>
@@ -406,5 +406,24 @@
     <script>
       AOS.init();
     </script>
+    <script>
+     const counterElement = document.getElementById('counter');
+let currentNumber = 0;
+const targetNumber = 90;
+const animationDuration = 4000; // milliseconds
+const intervalTime = 20; // milliseconds (determines smoothness)
+
+const increment = (targetNumber / (animationDuration / intervalTime));
+
+const animation = setInterval(() => {
+    currentNumber += increment;
+    if (currentNumber >= targetNumber) {
+        currentNumber = targetNumber;
+        clearInterval(animation);
+    }
+    // This is the line to change
+    counterElement.textContent = Math.floor(currentNumber) + '%';
+}, intervalTime);
+  </script>
   </body>
 </html>
