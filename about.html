@@ -21,43 +21,71 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
-    <!-- header section starts -->
-    <nav>
-      <div class="logo">
-        <a href="#"
-          ><img src="./assets/logo.transparent.png" alt="logo-trans"
-        /></a>
+      <!-- header section starts -->
+  <nav>
+    <div class="logo">
+      <a href="#"><img src="./assets/logo.transparent.png" alt="logo-trans" /></a>
+    </div>
+    <div class="nav-list-items">
+      <ul>
+        <li>
+          <a href="index.html"><i class="fa-solid fa-car"></i>Home</a>
+        </li>
+        <li>
+          <a href="#" class="active"><i class="fa-solid fa-circle-info"></i>About Us</a>
+        </li>
+        <li>
+          <a href="services.html"><i class="fa-solid fa-wrench"></i>Services</a>
+        </li>
+        <li class="drop-down-link">
+          <a href="#" ><i class="fa-solid fa-file-lines"></i>Pages <i class="fa-solid fa-caret-down"></i></a>
+          <div class="drop-down">
+          <ul>
+            <li><a href="pricing.html"><i class="fa-solid fa-clipboard-list"></i>Pricing Plan</a></li>
+            <li><a href="reveiw.html"><i class="fa-solid fa-users"></i>Reveiw</a></li>
+          </ul>
+        </div>
+        </li>
+        <li>
+          <a href="contact.html"><i class="fa-solid fa-envelope"></i>Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="nav_btn">
+      <a href="contact.html"><button><i class="fa-solid fa-calendar-check"></i> Book an Appointment</button></a>
+    </div>
+    <div class="bar">
+      <img src="./assets/bar.png" alt="bar" onclick="shownav()">
+    </div>
+    <div class="nav-list-items-res">
+      <div class="bar">
+        <img src="./assets/cross.png" alt="bar" onclick="hidenav()">
       </div>
-      <div class="nav-list-items">
-        <ul>
-          <li>
-            <a href="index.html"><i class="fa-solid fa-car"></i>Home</a>
-          </li>
-          <li>
-            <a href="#" class="active"
-              ><i class="fa-solid fa-circle-info"></i>About Us</a
-            >
-          </li>
-          <li>
-            <a href="#"><i class="fa-solid fa-wrench"></i>Services</a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-solid fa-file-lines"></i>Pages</a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-solid fa-envelope"></i>Contact</a>
-          </li>
-        </ul>
-      </div>
+
+      <ul>
+        <li>
+          <a href="#" class="active"><i class="fa-solid fa-car"></i>Home</a>
+        </li>
+        <li>
+          <a href="about.html"><i class="fa-solid fa-circle-info"></i>About Us</a>
+        </li>
+        <li>
+          <a href="services.html"><i class="fa-solid fa-wrench"></i>Services</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-file-lines"></i>Pages</a>
+        </li>
+        <li>
+          <a href="contact.html"><i class="fa-solid fa-envelope"></i>Contact</a>
+        </li>
+      </ul>
       <div class="nav_btn">
-        <a href="#"
-          ><button>
-            <i class="fa-solid fa-calendar-check"></i> Book an Appointment
-          </button></a
-        >
+        <a href="contact.html"><button><i class="fa-solid fa-calendar-check"></i> Book an Appointment</button></a>
       </div>
-    </nav>
-    <!-- header section End -->
+    </div>
+
+  </nav>
+  <!-- header section End -->
     <!-- Home section Start -->
     <div class="ab-home mb-5">
       <div class="ab-home_content">
@@ -126,7 +154,7 @@
       <h3 class="thi-heading">
         Driven by a Commitment to Excellence
       </h3>
-      <p class="mb-5">Our mission is simple: to redefine what it means to care for your vehicle. We are dedicated to providing a service that goes beyond expectations, built on a foundation of trust, quality, and innovation.</p>
+      <p class="mb-5">Our mission is simple to redefine what it means to care for your vehicle. We are dedicated to providing a service that goes beyond expectations, built on a foundation of trust, quality, and innovation.</p>
       <div class="our_mission-det">
       <div class="our_mission-det-left">
         <div class="our_mission-det-left-items">
@@ -151,7 +179,7 @@
       </div>
       </div>
       <div class="our_mission-det-right">
-        <img src="./assets/main-bg-img4" alt="">
+        <img src="./assets/main-bg-img4.png" alt="">
       </div>
 
       </div>
@@ -231,6 +259,96 @@
       </div>
     </section>
     <!-- whycho section End -->
+    <!-- cusre section start -->
+     <section class="customer_rev">
+      <div class="customer_rev-content">
+        <h2 class="secondary-heading col-1">What Our Customers Say...</h2>
+        <h4 class="fou-heading col-2">Hear from the people who trust us with their vehicles.</h4>
+      </div>
+      <div class="customer_rev-det mb-6">
+        <h3 class="thi-heading">Our Promise</h3>
+        <p>We promise to treat your vehicle with the same care and attention as if it were our own. From a simple oil change to a complex repair, we stand by our work and guarantee your satisfaction. Your trust is our greatest asset.</p>
+      </div>
+      <div class="customer_rev-cards mb-5">
+        
+      <div class="customer_rev-cards-items">
+        <div class="stars mb-4"> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <p>I needed a quick repair and they got my car in and out in no time. The service was professional, and the team was transparent about everything. It’s hard to find a garage you can trust, but I've found one here.</p>
+        <div class="items-det">
+        <img src="./assets/customer_ (4).jpg" alt="cus-1">
+        <h4 class="fou-heading">Amir M.</h4>
+      </div>
+      </div>
+      <div class="customer_rev-cards-items">
+        <div class="stars mb-4"> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <p>The team at LuxDrive Motors is absolutely incredible. They transformed my car with their detailing service, and the attention to detail was beyond my expectations. It looks even better than when I first bought it!</p>
+        <div class="items-det">
+        <img src="./assets/customer_ (2).jpg" alt="cus-1">
+        <h4 class="fou-heading">Mark R.</h4>
+      </div>
+      </div>
+      <div class="customer_rev-cards-items">
+        <div class="stars mb-4"> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-alt"></i></div>
+        <p class="mb-5">Great service! They were very knowledgeable and helped me with some complicated diagnostic work. My car runs perfectly now. Highly recommend their expertise.</p>
+        <div class="items-det">
+        <img src="./assets/customer_ (6).jpg" alt="cus-1">
+        <h4 class="fou-heading">Jamal A.</h4>
+      </div>
+      </div>
+     </div>
+     <a href="reveiw.html"><button class="button">Veiw More <i class="fa-solid fa-users"></i></button></a>
+     </section>
+    <!-- cusre section End -->
+<!-- footer section Start -->
+     <footer>
+      <div class="footer-left">
+        <img src="./assets/logo.transparent.png" alt="logo-trans">
+        <p class="mb-3">LuxDrive Motors is your trusted partner for premium automotive care, specializing in meticulous detailing and expert service.</p>
+        <div class="nav_btn">
+          <a href="contact.html"><button><i class="fa-solid fa-calendar-check"></i> Book an Appointment</button></a></div>
+      </div>
+      </div>
+      <div class="footer-center">
+        <h4 class="fou-heading"><i class="fa-solid fa-link"></i> Useful Links</h4>
+        <div class="footer-list-items">
+          <ul>
+            <li>
+              <a href="#" ><i class="fa-solid fa-car"></i>Home</a>
+            </li>
+            <li>
+              <a href="about.html"><i class="fa-solid fa-circle-info"></i>About Us</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-wrench"></i>Services</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-file-lines"></i>Pages</a>
+            </li>
+            <li>
+              <a href="contact.html"><i class="fa-solid fa-envelope"></i>Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="cont_det">
+        <h4 class="fou-heading">Address <i class="fa-solid fa-location-dot"></i></h4>
+        <p>1234 Automotive Lane, Lahore, Pakistan</p>
+      </div>
+        <div class="cont_det">
+        <h4 class="fou-heading">Phone <i class="fa-solid fa-phone-volume"></i></h4>
+        <p>(555) 123-4567</p>
+      </div>
+        <div class="cont_det">
+        <h4 class="fou-heading">Email <i class="fa-solid fa-envelope"></i></h4>
+        <p>info@luxdrivemotors.com</p>
+      </div>
+      </div>
+    </footer>
+    <div class="lst-pg">
+      <p class="col-1">&copy; 2025 LuxDrive Motors. All Rights Reserved. | Developed by Adobe with Yusha</p>
+    </div>
+    <!-- footer section End -->
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

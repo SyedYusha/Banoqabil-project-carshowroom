@@ -53,9 +53,9 @@ section .ourstory{
 }
 
 .our_mission_content{
-    height: 100%;
     background-color: var(--Dark-Charcoal);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.637);
+    height: 100%;
     text-align: center;
     padding: 3rem;
 }
@@ -92,4 +92,55 @@ section .ourstory{
 .our_mission-det .our_mission-det-right img{
     border-top-right-radius: .8rem;
     border-top-left-radius: .8rem;
+}
+
+
+.customer_rev-det{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem 5rem;
+}
+.customer_rev-det h3{
+    text-transform: none;
+    border-right: var(--border-main);
+    padding: 0 3rem;
+}
+.customer_rev-det p{
+    padding: 0 3rem;
+    text-align: center;
+}
+
+.customer_rev-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customer_rev-cards-items{
+    background-color: var(--Dark-Charcoal);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.637);
+    border: var(--border-2nd);
+    text-align: center;
+    width: 20%;
+    height: 60vh;
+    padding: 10px 15px;
+    margin: 0 10px;
+    border-radius: .8rem;
+}
+.customer_rev-cards-items .items-det{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customer_rev-cards-items .items-det img{
+    margin: 2rem 1rem;
+    width: 50%;
+    border: var(--border-main);
+    border-radius: 10.8rem;
+}
+.fa-star{
+    color: var(--Electric-Blue);
+}
+.customer_rev {
+    text-align: center;
 }

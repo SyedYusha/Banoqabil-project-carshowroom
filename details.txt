@@ -60,3 +60,98 @@ Total Transparency: To foster a relationship of trust by providing honest assess
 Customer-Centric Service: To prioritize your satisfaction by making every interaction seamless, convenient, and tailored to your unique needs.
 
 Continuous Innovation: To remain at the forefront of automotive care by embracing new technologies and techniques that enhance our services and protect your investment.
+
+
+
+
+
+
+
+
+
+
+
+People's Reviews Section
+This section will feature a clean layout with a few key testimonials from satisfied customers.
+
+Heading: <h2>What Our Customers Say</h2>
+
+Sub-heading: <h4>Hear from the people who trust us with their vehicles.</h4>
+
+Review Details
+Here are three fictional customer reviews you can use to build your section. Each review is a separate card, and you can display them in a carousel or a grid.
+
+Review 1
+Customer Name: Sarah L.
+
+Rating: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (5/5 Stars)
+
+Review Text: "The team at LuxDrive Motors is absolutely incredible. They transformed my car with their detailing service, and the attention to detail was beyond my expectations. It looks even better than when I first bought it!"
+
+Review 2
+Customer Name: Mark R.
+
+Rating: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (5/5 Stars)
+
+Review Text: "I needed a quick repair and they got my car in and out in no time. The service was professional, and the team was transparent about everything. It’s hard to find a garage you can trust, but I've found one here."
+
+Review 3
+Customer Name: Jamal A.
+
+Rating: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-alt"></i> (4.5/5 Stars)
+
+Review Text: "Great service! They were very knowledgeable and helped me with some complicated diagnostic work. My car runs perfectly now. Highly recommend their expertise."
+
+
+
+
+
+
+
+plz give 6 more reveiws
+
+
+Of course! Here are six more unique reviews you can use to expand your "People's Reviews" section.
+
+More Review Details
+Review 4
+Customer Name: Imran H.
+
+Rating: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (5/5 Stars)
+
+Review Text: "My car's alignment was a mess, and the team at LuxDrive fixed it perfectly. The ride feels so much smoother now. Their expertise is truly impressive."
+
+Review 5
+Customer Name: Fatima B.
+
+Rating: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (5/5 Stars)
+
+Review Text: "I went for a full interior detail and the result was amazing. The car smells and looks brand new. The staff was incredibly friendly and professional throughout the whole process."
+
+Review 6
+Customer Name: Ali Z.
+
+Rating: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-alt"></i> (4.5/5 Stars)
+
+Review Text: "The service was great and they were very quick with my oil change. The waiting area is also very clean and modern. A very good experience overall."
+
+Review 7
+Customer Name: Sana K.
+
+Rating: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (5/5 Stars)
+
+Review Text: "I chose the ceramic coating service, and the difference is night and day. My car has a brilliant shine and is so easy to clean now. The best investment I've made in my car."
+
+Review 8
+Customer Name: Bilal S.
+
+Rating: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (5/5 Stars)
+
+Review Text: "The team was able to diagnose and fix a complicated engine issue that another garage couldn't. I'm so grateful for their expert knowledge and honesty. Highly recommend LuxDrive Motors."
+
+Review 9
+Customer Name: Aisha B.
+
+Rating: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-alt"></i> (4.5/5 Stars)
+
+Review Text: "The service was a great value for the price. The quality of their work is excellent, and the facility is very clean and welcoming. I'll definitely be back for future service."
