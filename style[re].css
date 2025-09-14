@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --Dark-Charcoal: #1a1a1a;
   --Light-Gray: #f5f5f5;
   --Electric-Blue: #007bff;
@@ -58,4 +58,259 @@
 }
 .customer_rev {
     text-align: center;
+} */
+
+
+
+@media screen and (max-width: 1600px) {
+  .main-heading {
+    font-size: 6rem;
+  }
+  .secondary-heading {
+    font-size: 4rem;
+  }
+  .thi-heading {
+    font-size: 3rem;
+  }
+  .fou-heading {
+    font-size: 2.2rem;
+  }
+  .home .home-content p {
+    padding: 0 5rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  nav {
+    padding: 1rem 2rem;
+  }
+  .nav-list-items ul li a {
+    font-size: 1.6rem;
+  }
+  .nav_btn button {
+    font-size: 1.6rem;
+  }
+  .main-heading {
+    font-size: 5rem;
+  }
+  .secondary-heading {
+    font-size: 3.5rem;
+  }
+  .home .home-content p {
+    padding: 0 3rem;
+  }
+  .ourser-content .home-cards {
+    margin: 1rem 5rem;
+  }
+  .whycho-content {
+    flex-direction: column;
+    width: 95vw;
+  }
+  .whycho-content .whcho_left,
+  .whycho-content .whcho_right {
+    width: 100%;
+    text-align: center;
+  }
+  .whycho-content .whcho_right .whco-de1 {
+    flex-direction: column;
+  }
+  .whycho-content .whcho_right .whco-de1 h4 {
+    border-right: none;
+    border-bottom: var(--border-main);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+  .whycho-content .whcho_right .whco-cards h4,
+  .whycho-content .whcho_right .whco-cards h3 {
+    text-align: center;
+  }
+  .whycho-content .whcho_left {
+    height: auto;
+  }
+  .whcho_left_det {
+    position: static;
+  }
+  .about-content {
+    flex-direction: column;
+  }
+  .about-content .about_left img {
+    border-radius: 1rem 1rem 0 0;
+  }
+  .about_right {
+    width: 90vw;
+  }
+  .price_card {
+    flex-direction: column;
+  }
+  .price_card .price_card_items {
+    width: 90vw;
+  }
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .footer-left,
+  footer .footer-center,
+  footer .footer-right {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  footer .footer-center .footer-list-items ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer .footer-center .footer-list-items ul li {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .nav-list-items,
+  .nav_btn {
+    display: none;
+  }
+  .bar {
+    display: block;
+    cursor: pointer;
+  }
+  nav {
+    padding: 1rem 2.5rem;
+    height: 10vh;
+  }
+  .logo {
+    width: 150px;
+    height: auto;
+  }
+  .home .home-content p {
+    padding: 0 1rem;
+  }
+  .home-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-cards .home-cards-items {
+    margin-bottom: 2rem;
+    width: 80%;
+  }
+  .ourser-content p {
+    padding: 0 1rem;
+  }
+  .ourser-content .home-cards {
+    margin: 1rem;
+  }
+  .priceplan {
+    margin: 5rem 1rem;
+    padding: 5rem 1rem;
+  }
+  .tprigfprce_det {
+    flex-direction: column;
+  }
+  .tprigfprce_det h4 {
+    border-right: none;
+    border-bottom: var(--border-main);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+  .tprigfprce_det p {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-heading {
+    font-size: 4rem;
+  }
+  .secondary-heading {
+    font-size: 3rem;
+  }
+  .thi-heading {
+    font-size: 2.5rem;
+  }
+  .fou-heading {
+    font-size: 2rem;
+  }
+  p,
+  i,
+  a {
+    font-size: 1.4rem;
+  }
+  .home-cards .home-cards-items {
+    width: 90%;
+  }
+  .ourser-content img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  nav {
+    padding: 1rem 1rem;
+  }
+  .main-heading {
+    font-size: 3rem;
+  }
+  .secondary-heading {
+    font-size: 2.5rem;
+  }
+  .thi-heading {
+    font-size: 2rem;
+  }
+  .fou-heading {
+    font-size: 1.8rem;
+  }
+  p,
+  i,
+  a {
+    font-size: 1.2rem;
+  }
+  .about_right .social-media a i {
+    font-size: 2rem;
+  }
+  .about_right .social-media a {
+    padding: 0.8rem;
+    margin: 0 0.5rem;
+  }
+  .nav-list-items-res {
+    width: 25rem;
+  }
+  .nav-list-items-res ul {
+    margin: 3rem;
+  }
+  .nav-list-items-res ul li a {
+    padding: 1.5rem 0.5rem;
+  }
+  .bar .cross {
+    right: 4rem;
+    top: 1rem;
+  }
+  .home-cards .home-cards-items {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .main-heading {
+    font-size: 2.5rem;
+  }
+  .secondary-heading {
+    font-size: 2rem;
+  }
+  .thi-heading {
+    font-size: 1.8rem;
+  }
+  .fou-heading {
+    font-size: 1.6rem;
+  }
+  p,
+  i,
+  a {
+    font-size: 1rem;
+  }
+  .nav-list-items-res {
+    width: 20rem;
+  }
+  .bar .cross {
+    right: 3rem;
+  }
 }
